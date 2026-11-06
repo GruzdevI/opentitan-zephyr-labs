@@ -9,6 +9,7 @@
 | № | Работа | Результат |
 | :---: | --- | --- |
 | 01 | [Подготовка окружения и запуск Zephyr](labs/01-environment/README.md) | Стенд на Apple Silicon (lima + x86-контейнер через Rosetta); UART smoke test — `PASSED`; Zephyr `Hello World!` |
+| 02 | [UART-сервис эхо-повтора](labs/02-uart-echo/README.md) | Эхо без потерь (115 байт, сверено счётчиком); строка длиннее буфера; команда `EXIT` → `OK:BYE`; Python-клиент — `ALL TESTS PASSED` |
 
 ## Окружение
 
