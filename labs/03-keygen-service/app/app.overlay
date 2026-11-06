@@ -1,0 +1,18 @@
+/*
+ * CSRNG и entropy_src OpenTitan Earl Grey (адреса из top_earlgrey.h).
+ * В описании платы Zephyr 3.7 этих блоков нет, добавляем их сами.
+ */
+/ {
+    chosen {
+        zephyr,entropy = &csrng;
+    };
+};
+
+&{/soc} {
+    csrng: rng@41150000 {
+        compatible = "lowrisc,opentitan-csrng";
+        reg = <0x41150000 0x1000>, <0x41160000 0x1000>;
+        reg-names = "csrng", "entropy_src";
+        status = "okay";
+    };
+};

@@ -1,0 +1,9 @@
+description: OpenTitan CSRNG + entropy_src (драйвер энтропии из этого приложения)
+
+compatible: "lowrisc,opentitan-csrng"
+
+include: base.yaml
+
+properties:
+  reg:
+    required: true

@@ -1,0 +1,8 @@
+# Драйвер энтропии для CSRNG OpenTitan лежит в приложении: в Zephyr 3.7 его нет
+config ENTROPY_OT_CSRNG
+    bool "OpenTitan CSRNG entropy driver"
+    default y
+    depends on ENTROPY_GENERATOR
+    select ENTROPY_HAS_DRIVER
+
+source "Kconfig.zephyr"

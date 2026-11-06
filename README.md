@@ -10,6 +10,7 @@
 | :---: | --- | --- |
 | 01 | [Подготовка окружения и запуск Zephyr](labs/01-environment/README.md) | Стенд на Apple Silicon (lima + x86-контейнер через Rosetta); UART smoke test — `PASSED`; Zephyr `Hello World!` |
 | 02 | [UART-сервис эхо-повтора](labs/02-uart-echo/README.md) | Эхо без потерь (115 байт, сверено счётчиком); строка длиннее буфера; команда `EXIT` → `OK:BYE`; Python-клиент — `ALL TESTS PASSED` |
+| 03 | [UART-сервис генерации ключевого материала](labs/03-keygen-service/README.md) | Найдена причина `-148` в PSA; собственный драйвер аппаратного CSRNG OpenTitan → `psa_crypto_init: 0`; `GENKEY` — 32 байта в HEX; 8 из 8 проверок клиента |
 
 ## Окружение
 

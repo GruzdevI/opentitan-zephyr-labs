@@ -1,0 +1,17 @@
+üI00001 test_rom.c:158] kBuildInfo: scm_revision=54697461
+I00002 test_rom.c:230] Test ROM complete, jumping to flash (addr: 20000404)!
+*** Booting Zephyr OS build v3.7.0 ***
+Entropy: rng@41150000 ready (init 0)
+  entropy_src: sm=0x1a2 dbg=0x00000008 recov=0x0 err=0x0
+  csrng: sts=0x6 sm=0x04e recov=0x0 err=0x0
+Key generation service on opentitan_earlgrey/opentitan
+psa_crypto_init: 0
+READY
+OK:READY psa=0
+KEY:2b8ca455b569cdacb155ebe584aa6ce5d473eab2cf3f0f3f54821c5a103866c3
+KEY:3ec0af04383dc0eda700f53550d7e28f135c87c45dcb53052dd113745d24373d
+KEY:300b865a70252ff127cee6be14fadec83f3c6ed1919f1fac4188bb5b16291664
+ERR:UNKNOWN_CMD
+ERR:TOO_LONG
+OK:BYE
+Key generation service stopped
